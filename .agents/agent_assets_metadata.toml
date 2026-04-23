@@ -1,0 +1,56 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "C8BrpC2gO2NMXQOFN-NYJ"
+uri = "file://artifacts/alma-jalisco/src/assets/images/hero.png"
+type = "image"
+title = "Guadalajara cathedral view restaurant"
+
+[[generated]]
+id = "dzqi4844GeFF0yrMekuGz"
+uri = "file://artifacts/alma-jalisco/src/assets/images/about.png"
+type = "image"
+title = "Mariachi archway"
+
+[[generated]]
+id = "yVDZuMFOdTU-VFBnKuDKr"
+uri = "file://artifacts/alma-jalisco/src/assets/images/dish-carne.png"
+type = "image"
+title = "Carne en su jugo"
+
+[[generated]]
+id = "Z_IsMMnMZ-_qwK79309T5"
+uri = "file://artifacts/alma-jalisco/src/assets/images/dish-torta.png"
+type = "image"
+title = "Torta ahogada"
+
+[[generated]]
+id = "D-GazDKN0oH-7q3AFvUro"
+uri = "file://artifacts/alma-jalisco/src/assets/images/drink-tequila.png"
+type = "image"
+title = "Tequila flight"
+
+[[generated]]
+id = "-4Zi1WGqKg3jsDiX9rfaE"
+uri = "file://artifacts/alma-jalisco/src/assets/images/gallery-1.png"
+type = "image"
+title = "Restaurant interior"
+
+[[generated]]
+id = "H_hIgfiSZVfg0OHkmvDaJ"
+uri = "file://artifacts/alma-jalisco/src/assets/images/gallery-2.png"
+type = "image"
+title = "Talavera tile details"
+
+[[generated]]
+id = "NZE3zJhNseNhtLSSyf2Nn"
+uri = "file://artifacts/alma-jalisco/src/assets/images/gallery-3.png"
+type = "image"
+title = "Agave field at dawn"
+
+[[generated]]
+id = "7U_4P0oFXeS-gDsbyPx2x"
+uri = "file://artifacts/alma-jalisco/src/assets/images/gallery-4.png"
+type = "image"
+title = "Mariachi trumpet detail"
