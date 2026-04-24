@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm --filter @workspace/alma-jalisco run build && cp -r artifacts/alma-jalisco/dist public",
+  "buildCommand": "pnpm run build:vercel",
   "installCommand": "pnpm install --no-frozen-lockfile",
   "outputDirectory": "public",
   "framework": null,
