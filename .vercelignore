@@ -1,9 +1,0 @@
-node_modules
-scripts
-artifacts/api-server
-artifacts/mockup-sandbox
-.agents
-.vs
-attached_assets
-.replit
-replit.md
