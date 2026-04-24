@@ -1,5 +1,4 @@
 node_modules
-lib
 scripts
 artifacts/api-server
 artifacts/mockup-sandbox
