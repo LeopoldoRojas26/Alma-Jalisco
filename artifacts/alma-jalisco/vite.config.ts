@@ -24,7 +24,8 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    runtimeErrorOverlay(),
+    // Only use Replit plugins in Replit environment
+    ...(isReplit ? [runtimeErrorOverlay()] : []),
     ...(!isProduction && isReplit
       ? [
           await import("@replit/vite-plugin-cartographer").then((m) =>
@@ -41,7 +42,6 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "src"),
-      "@assets": path.resolve(import.meta.dirname, "..", "..", "attached_assets"),
     },
     dedupe: ["react", "react-dom"],
   },
