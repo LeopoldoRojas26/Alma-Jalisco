@@ -1,7 +1,7 @@
 {
-  "buildCommand": "pnpm -w run build:vercel",
+  "buildCommand": "pnpm --filter @workspace/alma-jalisco run build",
   "installCommand": "pnpm install --no-frozen-lockfile",
-  "outputDirectory": "public",
+  "outputDirectory": "artifacts/alma-jalisco/dist",
   "framework": null,
   "env": {
     "NODE_ENV": "production"
