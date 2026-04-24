@@ -1,0 +1,11 @@
+node_modules
+lib
+scripts
+artifacts/api-server
+artifacts/mockup-sandbox
+.agents
+.vs
+attached_assets
+.replit
+replit.md
+pnpm-workspace.yaml

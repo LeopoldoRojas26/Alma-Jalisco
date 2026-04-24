@@ -1,0 +1,9 @@
+{
+  "buildCommand": "cd artifacts/alma-jalisco && pnpm run build",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "outputDirectory": "artifacts/alma-jalisco/dist/public",
+  "framework": null,
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
