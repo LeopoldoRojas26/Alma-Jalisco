@@ -15,6 +15,8 @@ import {
   GlassWater
 } from 'lucide-react';
 import ReservationModal from '@/components/ReservationModal';
+import ContactForm from '@/components/ContactForm';
+import cuceiLogo from '@/assets/images/cucei.svg';
 
 const menuItems = [
   {
@@ -115,6 +117,7 @@ export default function Home() {
     { name: 'Galería', href: '#galeria' },
     { name: 'Reseñas', href: '#resenas' },
     { name: 'Ubicación', href: '#ubicacion' },
+    { name: 'Contacto', href: '#contacto' },
   ];
 
   return (
@@ -489,6 +492,8 @@ export default function Home() {
         </div>
       </section>
 
+      <ContactForm />
+
       {/* Footer */}
       <footer className="bg-background border-t border-border pt-20 pb-10">
         <div className="container mx-auto px-6 md:px-12">
@@ -534,6 +539,39 @@ export default function Home() {
             
           </div>
           
+          {/* Créditos académicos - CUCEI */}
+          <div className="border-t border-border pt-10 mb-8">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 text-center md:text-left">
+              <a
+                href="https://www.cucei.udg.mx/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 hover:opacity-80 transition-opacity"
+                aria-label="CUCEI - Universidad de Guadalajara"
+              >
+                <img
+                  src={cuceiLogo}
+                  alt="Escudo CUCEI"
+                  className="h-20 w-auto"
+                />
+              </a>
+              <div className="space-y-1">
+                <p className="text-sm font-serif text-primary tracking-wide">
+                  Leopoldo Alejandro Rojas Vega
+                </p>
+                <p className="text-xs text-muted-foreground font-light">
+                  Código: 218519062 · Ingeniería en Informática
+                </p>
+                <p className="text-xs text-muted-foreground font-light">
+                  Desarrollo de Aplicaciones Web en la Nube y Móviles
+                </p>
+                <p className="text-xs text-accent font-light tracking-widest uppercase pt-1">
+                  CUCEI · Universidad de Guadalajara
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground font-light">
             <p>&copy; {new Date().getFullYear()} Alma Jalisco. Todos los derechos reservados.</p>
             <p>Hecho con pasión en Guadalajara, Jalisco.</p>
